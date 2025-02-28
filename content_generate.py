@@ -8,7 +8,7 @@ def generate_content(text):
     return f"{text}"  # Placeholder for content generation
 
 def content_page():
-    st.header("Contextual Content Generation",help="This page will help you extend your text")
+    st.header("Text Expansion Tool",help="This page will help you extend your text")
     col1 , col2 = st.columns(2)
     with col1:
         input_text = st.text_area("Enter a short text to expand", height=200,max_chars=1000)
